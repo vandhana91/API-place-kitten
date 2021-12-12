@@ -1,0 +1,40 @@
+.container .box { 
+  width:940px; 
+  margin:50px; 
+  display:table; 
+} 
+.container .box .box-row { 
+  top: 0;
+  display:table-row; 
+} 
+.container .box .box-cell { 
+
+  display:table-cell; 
+ 
+  
+} 
+.container .box .box-cell.box1 { 
+  
+  color:black; 
+  text-align:justify; 
+} 
+
+.container .box .box-cell.box1 >h1{
+color:gray;
+}
+.container .box .box-cell.box1 >h5{
+background-color: rgba(0, 0, 0, 0.541);
+width:90%;
+text-align: center;
+}
+.container .box .box-cell.box2 { 
+  
+  text-align:justify 
+} 
+#img1{
+float:left;
+}
+.container .box .box-cell.box3 { 
+  
+  text-align:justify; 
+}
